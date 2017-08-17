@@ -11,7 +11,7 @@ var jsSources = [
 	'components/scripts/pixgrid.js',
 	'components/scripts/tagline.js',
 	'components/scripts/template.js'];
-var sassSources = ['components/style.scss'];
+var sassSources = ['components/sass/style.scss'];
 
 gulp.task('coffee', function() {
 	gulp.src(coffeeSources)
